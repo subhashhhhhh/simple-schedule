@@ -1,4 +1,4 @@
-# Simple Schedule (IN DEVELOPMENT)
+# SimpleSchedule (IN DEVELOPMENT)
 A simple website for students to get the schedule for their subgroups and add it to their calendar app of choice.
 
 ## How to use it?
