@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> SimpleSchedule</title>
+  <title>SimpleSchedule</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
   <div class="container">
     <h1>SimpleSchedule</h1>
-    <form id="scheduleForm">
-      <label for="year">Select Year:</label>
-      <select id="year" name="year"></select>
-
-      <label for="branch">Select Branch:</label>
-      <select id="branch" name="branch" disabled></select>
-
-      <label for="subgroup">Select Sub Group:</label>
-      <select id="subgroup" name="subgroup" disabled></select>
-
-      <div class="button-group">
-        <button type="button" id="addToCalendar">Add to Google Calendar</button>
-        <button type="button" id="downloadICS">Download ICS File</button>
-      </div>
-    </form>
+    <div class="buttons-container">
+      <button class="year-btn" data-year="1">1st Year</button>
+      <button class="year-btn" data-year="2">2nd Year</button>
+      <button class="year-btn" data-year="3">3rd Year</button>
+      <button class="year-btn" data-year="4">4th Year</button>
+    </div>
   </div>
 
   <script src="js/script.js"></script>
