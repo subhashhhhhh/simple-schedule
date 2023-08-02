@@ -6,10 +6,9 @@ function handleYearButtonClick(event) {
   }
 
   function handleGroupButtonClick(event) {
-    const selectedYear = event.target.getAttribute("data-year");
     const selectedGroup = event.target.getAttribute("data-group");
     if (selectedGroup) {
-      window.location.href = `years/${selectedYear}/group${selectedGroup}.html`;
+      window.location.href = `group${selectedGroup}.html`;
     }
   }
 
