@@ -45,3 +45,18 @@ h1 {
 .year-btn:hover {
   background-color: #0056b3;
 }
+
+.group-btn {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.group-btn:hover {
+  background-color: #0056b3;
+}
