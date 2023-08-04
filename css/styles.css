@@ -1,4 +1,4 @@
-/* Style the body element */
+
 body {
   display: flex;
   flex-direction: column;
@@ -6,33 +6,32 @@ body {
   align-items: center;
   background-color: #f2f2f2;
   font-family: Arial, sans-serif;
-  height: 100vh; /* Ensure the container takes up the full viewport height */
-  margin: 0; /* Remove default body margin */
+  height: 100vh;
+  margin: 0;
 }
 
-/* Style the container element */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #fff;
   border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  max-width: 600px;
+  margin: 20px auto;
   padding: 20px;
-  border-radius: 10px; /* Add border-radius to create rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-  max-width: 625px; /* Set a maximum width to control the size of the square block */
-  margin: 25px; /* Add some space around the container */
+  text-align: center;
 }
 
-/* Style the h1 element */
 h1 {
   text-align: center;
   font-size: 36px;
   font-family: 'Geneva', sans-serif;
   color: #333;
+  margin-bottom: 20px;
 }
 
-/* Style the label element */
 label {
   display: flex;
   justify-content: center;
@@ -43,7 +42,6 @@ label {
   margin-top: 4px;
 }
 
-/* Style the select element */
 select {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -54,7 +52,6 @@ select {
   margin-bottom: 16px;
 }
 
-/* Style the button element */
 button {
   background-color: #4CAF50;
   border: none;
@@ -79,18 +76,21 @@ button:hover {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    text-align: center; /* Center the text within the container */
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Geneva', sans-serif;
   }
 
   .personal-info h2 {
     margin-bottom: 10px;
+    font-family: 'Geneva', sans-serif;
   }
   
   .personal-info p {
     margin: 5px;
+    font-family: 'Geneva', sans-serif;
   }
 
 .cta-message {
@@ -100,11 +100,13 @@ button:hover {
   background-color: #f2f2f2;
   text-align: center;
   border-radius: 5px;
+  font-family: 'Geneva', sans-serif;
 }
 
 .cta-message a {
   color: #0066cc;
   text-decoration: underline;
+  font-family: 'Geneva', sans-serif;
 }
 
 .cta-message a:hover {
@@ -121,3 +123,15 @@ button:hover {
   margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .container {
+    padding: 20px;
+  }
+
+}
