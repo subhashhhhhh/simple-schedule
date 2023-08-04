@@ -3,29 +3,43 @@
 <head>
     <title>SimpleSchedule</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>SimpleSchedule</h1>
-
-<label for="year">Year:</label>
-<select id="year" onchange="populateBranches()">
-  <option value="">Select a year</option>
+    
+<div class="container">
+<h1>SimpleSchedule</h1>
+<select id="year" onchange="populateGroups()">
+  <option value="">Select a Year</option>
   <option value="1">1st Year</option>
   <option value="2">2nd Year</option>
   <option value="3">3rd Year</option>
 </select>
 
-<label for="branch">Branch:</label>
-<select id="branch" onchange="populateSubgroups()">
-  <option value="">Select a branch</option>
+<select id="group" onchange="populateSubgroups()">
+  <option value="">Select a Group</option>
 </select>
 
-<label for="subgroup">Subgroup:</label>
 <select id="subgroup">
   <option value="">Select a subgroup</option>
 </select>
 
 <button onclick="downloadSchedule()">Download Schedule</button>
+</div>
+
+<div class="personal-info">
+  <h2>About Me</h2>
+  <div class="profile-pic"></div>
+  <p><strong>Subhash Gottumukkala</strong></p>
+  <p>Thapar Institute of Engineering</p>
+  <p> and Technology</p>
+  <p>GitHub: <a href="https://github.com/subhashhhhhh" target="_blank">subhashhhhhh</a></p>
+  <p><a href="https://subhashh.tech" target="_blank">Read My Blog</a></p>
+</div>
+
+<div class="cta-message">
+  <p>Please consider starring the <a href="https://github.com/subhashhhhhh/simple-schedule" target="_blank">repository</a> on GitHub to support the project!</p>
+</div>
 
 <script src="js/script.js"></script>
 </body>
