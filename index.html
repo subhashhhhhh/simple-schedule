@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SimpleSchedule</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>SimpleSchedule</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-  <div class="container">
     <h1>SimpleSchedule</h1>
-    <div class="buttons-container">
-      <button class="year-btn" data-year="1">1st Year</button>
-      <button class="year-btn" data-year="2">2nd Year</button>
-      <button class="year-btn" data-year="3">3rd Year</button>
-      <button class="year-btn" data-year="4">4th Year</button>
-    </div>
-  </div>
 
-  <script src="js/script.js"></script>
+<label for="year">Year:</label>
+<select id="year" onchange="populateBranches()">
+  <option value="">Select a year</option>
+  <option value="1">1st Year</option>
+  <option value="2">2nd Year</option>
+  <option value="3">3rd Year</option>
+</select>
+
+<label for="branch">Branch:</label>
+<select id="branch" onchange="populateSubgroups()">
+  <option value="">Select a branch</option>
+</select>
+
+<label for="subgroup">Subgroup:</label>
+<select id="subgroup">
+  <option value="">Select a subgroup</option>
+</select>
+
+<button onclick="downloadSchedule()">Download Schedule</button>
+
+<script src="js/script.js"></script>
 </body>
 </html>

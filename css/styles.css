@@ -1,77 +1,50 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
-  height: 100vh; /* Make the body take up the full viewport height */
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  color: #333;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.buttons-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.year-btn {
-  margin: 10px;
-  padding: 12px 24px;
-  font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.year-btn:hover {
-  background-color: #0056b3;
-}
-
-.group-btn {
-  margin: 10px;
-  padding: 12px 24px;
-  font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.group-btn:hover {
-  background-color: #0056b3;
-}
-
-.branch-btn {
-  margin: 10px;
-  padding: 12px 24px;
-  font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.branch-btn:hover {
-  background-color: #0056b3;
-}
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 auto; /* Center the select element */
+    display: block; /* Make select a block-level element */
+    text-align: center;
+    margin-bottom: auto;
+    
+  }
+  
+  button {
+    background-color: #4CAF50;
+    display: block;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #388E3C;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center; /* Center the contents of the container */
+  }
+  
