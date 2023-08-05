@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url('css/fonts/Poppins-Regular.ttf') format('truetype');
+}
 
 body {
   display: flex;
@@ -5,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   height: 100vh;
   margin: 0;
   margin: 20px;
@@ -29,7 +35,7 @@ body {
 h1 {
   text-align: center;
   font-size: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   color: #333;
   margin-bottom: 20px;
 }
@@ -40,7 +46,7 @@ label {
   align-items: center;
   color: #666;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   margin-top: 4px;
 }
 
@@ -50,7 +56,7 @@ select {
   font-size: 16px;
   padding: 8px;
   margin: auto;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 16px;
   width: 200px;
 }
@@ -65,7 +71,7 @@ button {
   display: block;
   margin: auto;
   margin-top: 10px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 button:hover {
@@ -93,17 +99,17 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
   }
 
   .personal-info h2 {
     margin-bottom: 10px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
   }
   
   .personal-info p {
     margin: 5px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
   }
 
 .cta-message {
@@ -113,13 +119,13 @@ button:hover {
   background-color: #f2f2f2;
   text-align: center;
   border-radius: 5px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 .cta-message a {
   color: #0066cc;
   text-decoration: underline;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 .cta-message a:hover {
