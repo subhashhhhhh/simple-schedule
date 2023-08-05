@@ -72,33 +72,42 @@ const scheduleData = {
     }
   }
 
-  function downloadSchedule() {
-    const year = document.getElementById("year").value;
-    const group = document.getElementById("group").value;
-    const subgroup = document.getElementById("subgroup").value;
-  
-    if (year && group && subgroup) {
-        if (subgroup === "not_available") {
-            // Display a message or modal asking the user to contribute
-            alert("The schedule for this subgroup is not available. Please consider contributing by starting a pull request on GitHub.");
-          } else {
-      // Construct the URL of the ICS file based on user selections
-      const icsFileURL = `files/${year}/${subgroup}.ics`;
-  
-      // Create a temporary link element to trigger the download
-      const downloadLink = document.createElement("a");
-      downloadLink.href = icsFileURL;
-      downloadLink.download = `schedule_${year}_${group}_${subgroup}.ics`;
-      document.body.appendChild(downloadLink);
-      downloadLink.click();
-      document.body.removeChild(downloadLink);
-    } }
-    else {
-      alert("Please select a valid year, group, and subgroup.");
+  async function downloadSchedule() {
+    // Get the selected values from the dropdowns
+    var year = document.getElementById("year").value;
+    var branch = document.getElementById("group").value;
+    var subgroup = document.getElementById("subgroup").value;
+
+    // Check if the selected subgroup has a valid ICS file
+    var hasICSFile = await checkIfICSFileExists(year, subgroup);
+
+    if (hasICSFile) {
+      // Trigger the download if the ICS file exists
+      var downloadLink = generateICSDownloadLink(year, subgroup);
+      window.open(downloadLink, '_blank');
+    } else {
+      // Show an error message if the ICS file does not exist
+      alert("Sorry, the schedule for the selected subgroup is not available.");
     }
   }
+
+  // Function to check if the ICS file for the selected subgroup exists
+  async function checkIfICSFileExists(year, subgroup) {
+    const icsFileURL = `files/${year}/${subgroup}.ics`;
   
-  
+    try {
+      const response = await fetch(icsFileURL);
+      return response.ok;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  // Function to generate the download link for the selected subgroup's ICS file
+  function generateICSDownloadLink(year, subgroup) {
+    const downloadLink = `files/${year}/${subgroup}.ics`;
+    return downloadLink;
+  }
   
   
   
