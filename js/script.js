@@ -42,7 +42,6 @@ const scheduleData = {
             subgroupDropdown.add(option);
           });
         } else {
-          // If there are no available subgroups, show a "Not Available" option
           const notAvailableOption = document.createElement("option");
           notAvailableOption.value = "not_available";
           notAvailableOption.text = "Not Available";
@@ -59,7 +58,6 @@ const scheduleData = {
     const selectedYear = yearDropdown.value;
     const selectedGroup = groupDropdown.value;
   
-    // Clear the previous options in the subgroup dropdown
     subgroupDropdown.innerHTML = '<option value="">Select a subgroup</option>';
   
     if (selectedYear && selectedGroup) {
@@ -78,20 +76,16 @@ const scheduleData = {
     var branch = document.getElementById("group").value;
     var subgroup = document.getElementById("subgroup").value;
 
-    // Check if the selected subgroup has a valid ICS file
     var hasICSFile = await checkIfICSFileExists(year, subgroup);
 
     if (hasICSFile) {
-      // Trigger the download if the ICS file exists
       var downloadLink = generateICSDownloadLink(year, subgroup);
       window.open(downloadLink, '_blank');
     } else {
-      // Show an error message if the ICS file does not exist
       alert("Sorry, the schedule for the selected subgroup is not available.");
     }
   }
 
-  // Function to check if the ICS file for the selected subgroup exists
   async function checkIfICSFileExists(year, subgroup) {
     const icsFileURL = `files/${year}/${subgroup}.ics`;
   
@@ -103,7 +97,6 @@ const scheduleData = {
     }
   }
 
-  // Function to generate the download link for the selected subgroup's ICS file
   function generateICSDownloadLink(year, subgroup) {
     const downloadLink = `files/${year}/${subgroup}.ics`;
     return downloadLink;
