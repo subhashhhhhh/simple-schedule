@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   height: 100vh;
   margin: 0;
   margin: 20px;
@@ -19,7 +19,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  max-width: 600px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
   text-align: center;
@@ -28,8 +28,8 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 36px;
-  font-family: 'Geneva', sans-serif;
+  font-size: 28px;
+  font-family: 'Geneva';
   color: #333;
   margin-bottom: 20px;
 }
@@ -40,7 +40,7 @@ label {
   align-items: center;
   color: #666;
   font-weight: bold;
-  font-family: 'Geneva', sans-serif;
+  font-family: 'Geneva';
   margin-top: 4px;
 }
 
@@ -50,8 +50,9 @@ select {
   font-size: 16px;
   padding: 8px;
   margin: auto;
-  font-family: 'Geneva', sans-serif;
+  font-family: 'Geneva';
   margin-bottom: 16px;
+  width: 200px;
 }
 
 button {
@@ -64,7 +65,7 @@ button {
   display: block;
   margin: auto;
   margin-top: 10px;
-  font-family: 'Geneva', sans-serif;
+  font-family: 'Geneva';
 }
 
 button:hover {
@@ -82,17 +83,17 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Geneva', sans-serif;
+    font-family: 'Geneva';
   }
 
   .personal-info h2 {
     margin-bottom: 10px;
-    font-family: 'Geneva', sans-serif;
+    font-family: 'Geneva';
   }
   
   .personal-info p {
     margin: 5px;
-    font-family: 'Geneva', sans-serif;
+    font-family: 'Geneva';
   }
 
 .cta-message {
@@ -102,13 +103,13 @@ button:hover {
   background-color: #f2f2f2;
   text-align: center;
   border-radius: 5px;
-  font-family: 'Geneva', sans-serif;
+  font-family: 'Geneva';
 }
 
 .cta-message a {
   color: #0066cc;
   text-decoration: underline;
-  font-family: 'Geneva', sans-serif;
+  font-family: 'Geneva';
 }
 
 .cta-message a:hover {
