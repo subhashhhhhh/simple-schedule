@@ -72,6 +72,16 @@ button:hover {
   background-color: #3e8e41;
 }
 
+.warning-message {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2dede;
+  color: #a94442;
+  font-weight: bold;
+  width: 300px;
+  margin: 0 auto;
+}
+
 
 .personal-info {
     max-width: 600px;
