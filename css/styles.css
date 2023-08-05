@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Poppins Regular'), local('Poppins-Regular'), url('css/fonts/Poppins-Regular.ttf') format('truetype');
-}
-
 body {
   display: flex;
   flex-direction: column;
