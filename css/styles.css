@@ -10,6 +10,21 @@ body {
   margin: 20px;
 }
 
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .container {
+    padding: 20px;
+  }
+
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -135,15 +150,3 @@ button:hover {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-}
-
-@media (min-width: 769px) {
-  .container {
-    padding: 20px;
-  }
-
-}
