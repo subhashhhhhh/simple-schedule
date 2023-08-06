@@ -1,0 +1,511 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2EC8-2EC10
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230802T080000
+DTEND;TZID=Asia/Kolkata:20230802T094000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=WE
+EXDATE;TZID=Asia/Kolkata:20230802T080000
+DTSTAMP:20230806T014519Z
+UID:2l626jkapsufmoa9b8h1e88pit@google.com
+CREATED:20230805T083638Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230805T091537Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UCS303 P
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230731T121000
+DTEND;TZID=Asia/Kolkata:20230731T130000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=MO
+DTSTAMP:20230806T014519Z
+UID:3t9snqht4hnhegsq9uu9bhd3ad@google.com
+CREATED:20230805T141847Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230805T143214Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:UEC307 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230731T085000
+DTEND;TZID=Asia/Kolkata:20230731T094000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=MO
+DTSTAMP:20230806T014519Z
+UID:4rn93o08onhi7eihbeeap1rtic@google.com
+CREATED:20230805T142846Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T012929Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:UEC310 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230731T094000
+DTEND;TZID=Asia/Kolkata:20230731T103000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=MO
+DTSTAMP:20230806T014519Z
+UID:2javkhafgmtnqrasu27962htgl@google.com
+CREATED:20230805T141705Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T012944Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:UTA024 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230731T103000
+DTEND;TZID=Asia/Kolkata:20230731T112000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=MO
+DTSTAMP:20230806T014519Z
+UID:0rag92sdqmq242l8krdtc3eu2i@google.com
+CREATED:20230805T101335Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T012955Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:UEC403 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230731T112000
+DTEND;TZID=Asia/Kolkata:20230731T121000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=MO
+DTSTAMP:20230806T014519Z
+UID:15d132hgbrvspi3o7e4ulj0r98@google.com
+CREATED:20230805T082527Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013007Z
+SEQUENCE:5
+STATUS:CONFIRMED
+SUMMARY:UMA011 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230731T162000
+DTEND;TZID=Asia/Kolkata:20230731T171000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=MO
+DTSTAMP:20230806T014519Z
+UID:1drpmimo622lcn1s7003diq572@google.com
+CREATED:20230805T154356Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013127Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UES012 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230731T153000
+DTEND;TZID=Asia/Kolkata:20230731T162000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=MO
+DTSTAMP:20230806T014519Z
+UID:5ft54e3kmvph9i50natno0gsdg@google.com
+CREATED:20230806T013217Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u><u>GitHub</u></u></a><br><a href="https://s
+ ubhashh.tech"><u><u>Read my blog</u></u></a>
+LAST-MODIFIED:20230806T013217Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UEC612 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230801T135000
+DTEND;TZID=Asia/Kolkata:20230801T144000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TU
+DTSTAMP:20230806T014519Z
+UID:2hreg1bqjq0d2fdbj3kns577hg@google.com
+CREATED:20230805T095442Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013324Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:UEC403 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230801T144000
+DTEND;TZID=Asia/Kolkata:20230801T153000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TU
+DTSTAMP:20230806T014519Z
+UID:0hhpigg3qdcndrg8oauhnq78fv@google.com
+CREATED:20230805T143537Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013348Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UES012 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230801T153000
+DTEND;TZID=Asia/Kolkata:20230801T162000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TU
+DTSTAMP:20230806T014519Z
+UID:2539746lbikrod6pfv1dmucbj5@google.com
+CREATED:20230805T143558Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013400Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UEC310 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230802T085000
+DTEND;TZID=Asia/Kolkata:20230802T094000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=WE
+DTSTAMP:20230806T014519Z
+UID:3tqe8rquha2jlkcnj5tuf9fsqn@google.com
+CREATED:20230805T154542Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013432Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:UEC307 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230802T094000
+DTEND;TZID=Asia/Kolkata:20230802T103000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=WE
+DTSTAMP:20230806T014519Z
+UID:0j9k6p38rs4a6p7ecqc9sv5kfn@google.com
+CREATED:20230805T145122Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013450Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UEC612 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230802T103000
+DTEND;TZID=Asia/Kolkata:20230802T112000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=WE
+DTSTAMP:20230806T014519Z
+UID:6n2jpfk5eiml5fg9isf91ejbgi@google.com
+CREATED:20230805T145154Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013517Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:UMA011 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230802T112000
+DTEND;TZID=Asia/Kolkata:20230802T130000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=WE
+DTSTAMP:20230806T014519Z
+UID:5846o22pqnj2f3smjtheujmcm0@google.com
+CREATED:20230805T143715Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013538Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:UES012 P
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230803T085000
+DTEND;TZID=Asia/Kolkata:20230803T094000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TH
+DTSTAMP:20230806T014519Z
+UID:3tgj3l164om7ajhkd6r1h4necr@google.com
+CREATED:20230806T013641Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u><u>GitHub</u></u></a><br><a href="https://s
+ ubhashh.tech"><u><u>Read my blog</u></u></a>
+LAST-MODIFIED:20230806T013641Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UESC307 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230803T094000
+DTEND;TZID=Asia/Kolkata:20230803T103000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TH
+DTSTAMP:20230806T014519Z
+UID:633h211jkufmj3p9dcp9qbk1rd@google.com
+CREATED:20230805T143953Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013656Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UES012 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230803T112000
+DTEND;TZID=Asia/Kolkata:20230803T121000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TH
+DTSTAMP:20230806T014519Z
+UID:2sd6soa0e6aiktduijijlgcq5g@google.com
+CREATED:20230805T090810Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013723Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:UEC307 T
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230803T153000
+DTEND;TZID=Asia/Kolkata:20230803T171000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TH
+DTSTAMP:20230806T014519Z
+UID:4c9a3qn5o88kola9t60760jpd3@google.com
+CREATED:20230805T090834Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013809Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:UMA011 P
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230804T094000
+DTEND;TZID=Asia/Kolkata:20230804T103000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=FR
+DTSTAMP:20230806T014519Z
+UID:79746nt2tnjn80rqqaduaki89d@google.com
+CREATED:20230805T144107Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013848Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UEC403 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230804T103000
+DTEND;TZID=Asia/Kolkata:20230804T112000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=FR
+DTSTAMP:20230806T014519Z
+UID:0itivrsiji3tnlm8324d0ipm37@google.com
+CREATED:20230805T144134Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T013900Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UMA011 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230804T112000
+DTEND;TZID=Asia/Kolkata:20230804T121000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=FR
+DTSTAMP:20230806T014519Z
+UID:0ni7a4m04114lcipclu64cdkgp@google.com
+CREATED:20230806T013930Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u><u>GitHub</u></u></a><br><a href="https://s
+ ubhashh.tech"><u><u>Read my blog</u></u></a>
+LAST-MODIFIED:20230806T013930Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UEC310 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230804T121000
+DTEND;TZID=Asia/Kolkata:20230804T130000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=FR
+DTSTAMP:20230806T014519Z
+UID:3hepf2qoqfuc8f280fns8lcfo4@google.com
+CREATED:20230806T013952Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u><u>GitHub</u></u></a><br><a href="https://s
+ ubhashh.tech"><u><u>Read my blog</u></u></a>
+LAST-MODIFIED:20230806T013952Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UEC612 L
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230801T080000
+DTEND;TZID=Asia/Kolkata:20230801T094000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TU
+DTSTAMP:20230806T014519Z
+UID:0ds4mh6cb8r2l56ls2piul891l@google.com
+CREATED:20230806T014209Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://www.google.com/url?q=https://github.com/subhashhhhhh&amp\;sa=D&amp\;sou
+ rce=calendar&amp\;usd=2&amp\;usg=AOvVaw0t-xu0b2lgWWrNfhwqUKhD" target="_bla
+ nk"><u>GitHub</u></a><br><a href="https://www.google.com/url?q=https://subh
+ ashh.tech&amp\;sa=D&amp\;source=calendar&amp\;usd=2&amp\;usg=AOvVaw39do3TsJ
+ hPPnYw3LYF3h5Y" target="_blank"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T014209Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UTA024 P
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230801T103000
+DTEND;TZID=Asia/Kolkata:20230801T121000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TU
+DTSTAMP:20230806T014519Z
+UID:3hn9ata8g83qi1isuakhcd356b@google.com
+CREATED:20230805T135158Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T014224Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:UEC612 P
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230801T094000
+DTEND;TZID=Asia/Kolkata:20230801T103000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TU
+DTSTAMP:20230806T014519Z
+UID:3tkjfkj6tiojd0a60k1p4sp39o@google.com
+CREATED:20230806T014247Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://www.google.com/url?q=https://github.com/subhashhhhhh&amp\;sa=D&amp\;sou
+ rce=calendar&amp\;usd=2&amp\;usg=AOvVaw0t-xu0b2lgWWrNfhwqUKhD" target="_bla
+ nk"><u>GitHub</u></a><br><a href="https://www.google.com/url?q=https://subh
+ ashh.tech&amp\;sa=D&amp\;source=calendar&amp\;usd=2&amp\;usg=AOvVaw39do3TsJ
+ hPPnYw3LYF3h5Y" target="_blank"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T014320Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:UEC612 T
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230801T162000
+DTEND;TZID=Asia/Kolkata:20230801T171000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TU
+DTSTAMP:20230806T014519Z
+UID:032g3mrdad9vsetk1gubgss9ik@google.com
+CREATED:20230806T014341Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://www.google.com/url?q=https://github.com/subhashhhhhh&amp\;sa=D&amp\;sou
+ rce=calendar&amp\;usd=2&amp\;usg=AOvVaw0t-xu0b2lgWWrNfhwqUKhD" target="_bla
+ nk"><u>GitHub</u></a><br><a href="https://www.google.com/url?q=https://subh
+ ashh.tech&amp\;sa=D&amp\;source=calendar&amp\;usd=2&amp\;usg=AOvVaw39do3TsJ
+ hPPnYw3LYF3h5Y" target="_blank"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T014341Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UEC403 T
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230802T080000
+DTEND;TZID=Asia/Kolkata:20230802T085000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=WE
+DTSTAMP:20230806T014519Z
+UID:3gk53lbtkl1gjv4q3qdekl055b@google.com
+CREATED:20230806T014405Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://www.google.com/url?q=https://github.com/subhashhhhhh&amp\;sa=D&amp\;sou
+ rce=calendar&amp\;usd=2&amp\;usg=AOvVaw0t-xu0b2lgWWrNfhwqUKhD" target="_bla
+ nk"><u>GitHub</u></a><br><a href="https://www.google.com/url?q=https://subh
+ ashh.tech&amp\;sa=D&amp\;source=calendar&amp\;usd=2&amp\;usg=AOvVaw39do3TsJ
+ hPPnYw3LYF3h5Y" target="_blank"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T014405Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:UES012 T
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230803T103000
+DTEND;TZID=Asia/Kolkata:20230803T112000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TH
+DTSTAMP:20230806T014519Z
+UID:757tnp87uecb9so3qjf2g12ij2@google.com
+CREATED:20230805T100758Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T014440Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:UEC310T
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230803T135000
+DTEND;TZID=Asia/Kolkata:20230803T153000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20231201T182959Z;BYDAY=TH
+DTSTAMP:20230806T014519Z
+UID:4euo4raskf2e9mfh9urji0509s@google.com
+CREATED:20230805T154655Z
+DESCRIPTION:Made by Subhash Gottumukkala.<br><br>Follow me on <a href="http
+ s://github.com/subhashhhhhh"><u>GitHub</u></a><br><a href="https://subhashh
+ .tech"><u>Read my blog</u></a>
+LAST-MODIFIED:20230806T014459Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:UTA024 P
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

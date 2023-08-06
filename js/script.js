@@ -82,7 +82,7 @@ const scheduleData = {
   }
 
   async function checkIfICSFileExists(year, subgroup) {
-    const icsFileURL = `files/${year}/${subgroup}.ics`;
+    const icsFileURL = `https://schedule.subhashh.tech/files/${year}/${subgroup}.ics`;
   
     try {
       const response = await fetch(icsFileURL);
