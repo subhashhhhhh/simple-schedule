@@ -93,7 +93,7 @@ const scheduleData = {
   }
 
   function generateICSDownloadLink(year, subgroup) {
-    const downloadLink = `files/${year}/${subgroup}.ics`;
+    const downloadLink = `https://schedule.subhashh.tech/files/${year}/${subgroup}.ics`;
     return downloadLink;
   }
   
