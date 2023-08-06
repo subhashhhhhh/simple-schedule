@@ -82,7 +82,7 @@ const scheduleData = {
   }
 
   async function checkIfICSFileExists(year, subgroup) {
-    const icsFileURL = `https://schedule.subhashh.tech/files/${year}/${subgroup}.ics`;
+    const icsFileURL = `/../files/${year}/${subgroup}.ics`;
   
     try {
       const response = await fetch(icsFileURL);
@@ -93,7 +93,7 @@ const scheduleData = {
   }
 
   function generateICSDownloadLink(year, subgroup) {
-    const downloadLink = `https://schedule.subhashh.tech/files/${year}/${subgroup}.ics`;
+    const downloadLink = `/../files/${year}/${subgroup}.ics`;
     return downloadLink;
   }
   
