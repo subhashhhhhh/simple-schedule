@@ -1,8 +1,6 @@
 # SimpleSchedule
 A simple website for students to get the schedule for their subgroups and add it to their calendar app of choice.
 
-**Inspired from [Timetable Generator](https://timetable.mlsctiet.com) by [Utkarsh](https://github.com/utkarsh-1905)**
-
 ## How to use it?
 It's simple. I decided to keep the UI and look of the website easy to understand.
 1. Select your year of study
